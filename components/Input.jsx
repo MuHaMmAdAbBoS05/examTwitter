@@ -1,6 +1,4 @@
 import { useRef, useState } from "react";
-import data from "@emoji-mart/data";
-import Picker from "@emoji-mart/react";
 import { db, storage } from "../firebase";
 import {
   addDoc,
